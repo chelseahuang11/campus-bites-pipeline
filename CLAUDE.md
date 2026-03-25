@@ -27,7 +27,7 @@ Connection string: `postgresql://postgres:postgres@localhost:5432/campus_bites`
 .venv/Scripts/python.exe load_data.py
 ```
 
-The `campus-bites-pipeline/` subdirectory contains an older SQL-based approach (`init.sql`) that loads via Postgres's `COPY` command on first container startup. The root-level `docker-compose.yml` no longer uses this approach.
+The `campus-bites-pipeline/` subdirectory contains an older SQL-based approach (`init.sql`) that loads via Postgres's `COPY` command on first container startup. The root-level `docker-compose.yml` no longer uses this approach. The CSV lives at `data/campus_bites_orders.csv`.
 
 ## Python Environment
 

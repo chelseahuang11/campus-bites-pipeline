@@ -13,7 +13,7 @@ DB_CONFIG = {
 }
 
 # --- Path to the source CSV file ---
-CSV_PATH = "campus-bites-pipeline/data/campus_bites_orders.csv"
+CSV_PATH = "data/campus_bites_orders.csv"
 
 # --- Table definition ---
 # Uses CREATE TABLE IF NOT EXISTS so the script is safe to run multiple times
